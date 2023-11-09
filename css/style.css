@@ -1,1 +1,12 @@
-
+#right-icon {
+  margin-right: 5px;
+}
+#far-right-icon {
+  margin-left: 5px;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid red;
+}
