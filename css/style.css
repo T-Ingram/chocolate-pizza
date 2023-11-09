@@ -1,3 +1,9 @@
+body {
+  border: 1px solid red;
+  margin-left: 800px;
+  margin-right: 800px;
+  overflow-y: auto;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -42,5 +48,51 @@ header {
 #tiny-image {
   background-image: url('https://github.com/codefellows/seattle-code-201d100/blob/main/class-10/lab-a/lab-assets/hr-img.png?raw=true');
   background-repeat: repeat-x 15px;
-margin-top: 20px;
+  margin-top: 20px;
+}
+#food-title {
+  display: flex;
+  justify-content: left;
+  font-size: 50px;
+  width: 400px;
+  height: 100px;
+  margin-bottom: -50px;
+  font-weight: bolder;
+}
+#post-date {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 2px;
+  margin-bottom: 10px;
+  height: 30px;
+  color: grey;
+}
+#print {
+  float: right;
+  height: 13px;
+  align-items: center;
+  margin-right: 50px;
+  margin-top: -25px;
+}
+#main-image {
+  display: flex;
+  justify-content: center;
+  height: 840px;
+  width: auto ;
+  margin-top: 40px;
+}
+#text {
+  font-size: 25px;
+  color: grey;
+  text-indent: 2em;
+  width: auto;
+  margin-top: 40px;
+}
+#note-paper {
+  display: flex;
+  justify-content: center;
+  height: 420px;
+  width: auto;
+  margin-top: 50px;
 }
