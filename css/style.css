@@ -1,12 +1,46 @@
+#left-box {
+  display: flex; ;
+}
+#far-left-icon {  
+  display: flex;
+  height: 60px;
+  width: 60px;
+}
+#blog-title {
+  margin-top: -40px;
+  margin-bottom: -15px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 40px;;
+  width: 200px;
+
+}
+#blog-catch-phrase {
+ align-self: flex-end;
+ font-size: 12px;
+
+ margin-left: -200px;
+}
+#right-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
 #right-icon {
-  margin-right: 5px;
+  justify-content: space-evenly; 
+  align-items: center;
+  margin-right: 6px;
 }
 #far-right-icon {
-  margin-left: 5px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 6px;
 }
+
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
+
 }
