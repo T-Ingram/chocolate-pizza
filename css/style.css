@@ -92,7 +92,46 @@ header {
 #note-paper {
   display: flex;
   justify-content: center;
-  height: 420px;
+  height: 400px;
   width: auto;
   margin-top: 50px;
+}
+#left-steps {
+  display: flex;
+  width: 600px;
+  font-size: 35px;
+  margin-top: -355px;
+  margin-left: 100px;
+}
+#right-steps {
+  display: flex;
+  width: 600px;
+  font-size: 35px;
+  margin-left: 650px;
+  margin-top: -248px;
+}
+#tiny-image-bottom {
+  background-image: url('https://github.com/codefellows/seattle-code-201d100/blob/main/class-10/lab-a/lab-assets/hr-img.png?raw=true');
+  background-repeat: repeat-x 15px;
+  margin-top: 125px;
+}
+#face-pic {
+  display: flex;
+  height: 100px;
+  padding-top: 30px;
+}
+#name {
+  display: inline-flexbox;
+  font-size: 30px;
+  font-weight: bolder;
+  opacity: 70%;
+  padding-left: 125px;
+  margin-top: -130px;
+}
+#bottom-text {
+  border: 1px solid red;
+  font-size: 25px;
+  width: 750px;
+  padding-left: 125px;
+  margin-top: -40px;
 }
