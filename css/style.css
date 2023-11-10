@@ -1,7 +1,7 @@
 body {
   border: 1px solid red;
-  margin-left: 800px;
-  margin-right: 800px;
+  margin-left: 100px;
+  margin-right: 100px;
   overflow-y: auto;
 }
 header {
